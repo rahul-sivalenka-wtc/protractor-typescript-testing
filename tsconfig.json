@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "tmp",
+        "rootDir": ".", // Used to watch the file changes
+        "lib": ["es2015", "dom"]
+    },
+    "exclude": [
+        "node_modules",
+        "tmp"
+    ]
+}

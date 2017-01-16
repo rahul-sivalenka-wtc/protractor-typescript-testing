@@ -1,0 +1,22 @@
+{
+  "name": "typescript-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc || echo done", // https://github.com/Microsoft/TypeScript/issues/8186#issuecomment-269380197
+    "test": "protractor tmp/protractor.conf.js"
+  },
+  "author": "Phani Rahul Sivalenka",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "protractor": "^5.0.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.40",
+    "@types/node": "^7.0.0",
+    "jasmine-spec-reporter": "^3.2.0"
+  }
+}
