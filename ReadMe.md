@@ -1,0 +1,1 @@
+# Basic testing environment setup for Protractor with Typescript
